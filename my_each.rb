@@ -6,6 +6,6 @@ def my_each(array) # put argument(s) here
   end
 end
 
-yielding do
+yield do
   return array[count]
 end
